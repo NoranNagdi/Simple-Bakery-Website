@@ -13,5 +13,5 @@ The website is designed for a bakery and includes simple sections such as **Home
 
 ## 🛠️ Technologies Used
 
-- HTML5  
-- CSS3  
+- HTML 
+- CSS 
