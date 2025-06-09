@@ -1,0 +1,282 @@
+
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+span{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.clr {
+    clear: both;
+}
+
+.home{
+    min-height: 100%;
+    background-image: url("Bakery images/drew-coffman-1872.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.nav-bar{
+    padding: 10px;;
+}
+
+.nav-bar img{
+    float: left;
+    width: 200px;
+}
+
+.nav-bar ul{
+    float: right;
+    list-style-type: none;
+}
+.nav-bar li{
+    float: left;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+}
+
+.content{
+
+    max-width: 50%;
+    text-align: center;
+    color: white;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.content h1{
+    font-size: 52px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.content p{
+    font-size: 24px;
+}
+
+.btn{
+    padding: 20px 30px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 20px;
+
+}
+
+.btn1{
+    background-color: #8e7754;
+    margin: 20px;
+}
+
+.btn2{
+    background-color: transparent;
+    border: 3px solid white;
+}
+
+.about{
+    padding: 50px 0;
+    min-height: 100%;
+}
+.about-img{
+    display: inline-block;
+    width: 45%;
+}
+
+.about-img img{
+    width: 100%;
+}
+
+.about-content{
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+.statement{
+    display: inline-block;
+    margin: 20px 0;
+}
+
+.statement img{
+    width: 7%;
+    border: 3px solid rgba(80, 27, 27, 0.263);
+    border-radius: 50%;
+}
+
+.statement p{
+    display: inline-block;
+    vertical-align: top;
+}
+.location {
+    background-color: #f6f2f2dd;
+    padding: 70px 0;
+    min-height: 100%;
+}
+
+.location-content {
+    display: inline-block;
+    vertical-align: middle;
+    width: 45%;
+    margin-right: 70px;
+}
+
+.location-img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 45%;
+}
+
+.location-img img {
+    width: 100%;
+}
+
+.gallery{
+    padding: 50px 0;
+    min-height: 100%;
+}
+
+.gallery-content{
+    text-align: center;
+}
+
+.inner-item img{
+    width: 100%;
+}
+.item{
+    width: 33.33333%;
+    float: left;
+}
+.inner-item {
+    margin: 20px;
+}
+
+.item h2{
+    text-align: center;
+}
+
+.item p{
+    text-align: center;
+}
+
+
+
+.contact {
+    background-color: #f6f2f2dd;
+    padding: 70px 0;
+    min-height: 100%;
+}
+
+.contact-content {
+    float: left;
+    width: 45%;
+    margin-right: 70px;
+    margin-top: 50px;
+}
+
+.map{
+    margin-top: 50px;
+    width: 45%;
+    float: right;
+
+}
+iframe{
+    width: 100%;
+    height: 75%;
+
+}
+
+.info {
+    float: left;
+    margin: 5px ;
+}
+
+.info img {
+    margin-right: 15px;
+    float: left;
+    width: 7%;
+    border-radius: 50%;
+    background-color: #8e7754;
+}
+
+.info p {
+    float: left;
+    
+}
+.final{
+    background-color: #464343;
+    padding: 70px;
+    height: 55%;
+    max-width: 100%;
+}
+
+.last-container{
+width: 25%;
+float: left;
+}
+.final-content{
+    margin: 2.5%;
+    font-weight: 300;
+}
+
+.final-content h3 {
+    color: rgb(237, 234, 234);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.final p {
+    color: rgb(163, 161, 161);
+    line-height: 25px;
+    max-width: 90%;
+}
+
+.details {
+    margin-bottom: 20px;
+}
+
+.details img {
+    margin-right: 15px;
+    float: left;
+    width: 35px;
+}
+
+.details a {
+    color: rgb(163, 161, 161);
+    font-weight: 300;
+}
+
+.footer {
+    height: 45%;
+    background-color: rgb(60, 58, 58);
+    text-align: center;
+}
+.footer img {
+    margin: 40px 0 15px 0;
+}
+.footer p{
+    color: rgb(163, 161, 161);
+    line-height: 25px;
+    font-weight: 50;
+    font-size: 14px;
+}
+.social-icons img{
+    width: 3%;
+    /* margin: auto; */
+    margin-right: 3px;
+    margin-top: 15px;
+    background-color: #464343;
+    border-radius: 50%;
+}
+
